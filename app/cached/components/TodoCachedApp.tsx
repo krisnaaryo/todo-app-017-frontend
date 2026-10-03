@@ -22,7 +22,6 @@ export default function TodoCachedApp({ initialTodos }: TodoCachedAppProps) {
     const newTodo: Todo = {
       id: Date.now(),
       title,
-      description: 'Tugas baru yang tersimpan di localStorage.',
       completed: false,
       createdAt: new Date().toISOString().split('T')[0],
     };

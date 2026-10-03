@@ -18,7 +18,6 @@ export default function TodoStateOnlyApp({ initialTodos }: TodoStateOnlyAppProps
     const newTodo: Todo = {
       id: Date.now(),
       title,
-      description: 'Tugas baru yang ditambahkan ke state komponen.',
       completed: false,
       createdAt: new Date().toISOString().split('T')[0],
     };
